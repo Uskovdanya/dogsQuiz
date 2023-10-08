@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sniglet&display=swap"rel="stylesheet');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .loader-container {
   display: flex;
   flex-direction: column;
@@ -19,7 +23,3 @@
   background-color: #495057;
   border-radius: 100px;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
