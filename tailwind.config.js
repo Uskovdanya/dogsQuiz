@@ -40,7 +40,7 @@ export default {
       transitionTimingFunction: {},
       backgroundImage: {
         latestNews: "lightgray 50% / cover no-repeat, #C4C4C4",
-        bgImage: "url('./bg-layer.png')",
+        bgImage: "url('/bg-layer.png')",
         gradientBg:
           "background: linear-gradient(210deg, rgba(255, 255, 255, 0.90) 50.99%, rgba(255, 255, 255, 0.00) 107.27%)",
         hotTopicGradient:
