@@ -5,7 +5,7 @@ function ArrowRight({ dispatch, answer, numQuestions, index }) {
     return (
       <div
         onClick={() => dispatch({ type: "nextQuestion" })}
-        className="ouline-none absolute bottom-10 right-20 flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full bg-arrowColor transition-all duration-100 ease-in hover:bg-buttonHover hover:outline-none active:bg-buttonActive "
+        className="ouline-none absolute bottom-[33px] right-4 flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-arrowColor transition-all duration-100 ease-in hover:bg-buttonHover hover:outline-none active:bg-buttonActive md:bottom-12 md:right-16 lg:bottom-14 lg:right-24 xl:bottom-10 xl:right-20 xl:h-[50px] xl:w-[50px]"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function ArrowRight({ dispatch, answer, numQuestions, index }) {
     return (
       <div
         onClick={() => dispatch({ type: "finish" })}
-        className="absolute bottom-10 right-20 flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full bg-arrowColor font-Sniglet  text-white"
+        className="ouline-none absolute bottom-[33px] right-4 flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full bg-arrowColor text-sm text-white transition-all duration-100 ease-in hover:bg-buttonHover hover:outline-none active:bg-buttonActive md:bottom-12 md:right-16 lg:bottom-14 lg:right-24 xl:bottom-10 xl:right-20  xl:h-[50px] xl:w-[50px]"
       >
         Done
       </div>

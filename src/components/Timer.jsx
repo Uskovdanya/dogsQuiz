@@ -12,7 +12,7 @@ function Timer({ dispatch, secondsRemaining }) {
     return () => clearInterval(id);
   }, []);
   return (
-    <div className="absolute bottom-10 left-20 font-Sniglet text-[20px] text-arrowColor">
+    <div className="absolute  bottom-[470px] left-[240px] font-Sniglet text-[20px] text-arrowColor  md:bottom-10 md:left-12 lg:bottom-12 lg:left-20 xl:bottom-8 xl:left-20">
       {timeString}
     </div>
   );

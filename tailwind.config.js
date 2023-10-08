@@ -20,11 +20,13 @@ export default {
       gridTemplateColumns: {
         section1: "repeat( 2, minmax(0, 250px))",
         section2: "repeat( 2, minmax(0, 200px))",
+        section3: "repeat( 2, minmax(0, 135px))",
         progress: "auto auto",
       },
       gridTemplateRows: {
         section1: "repeat(2,minmax(0, 150px))",
         section2: "repeat(2,minmax(0, 130px))",
+        section5: "repeat(2,minmax(0, 110px))",
       },
 
       container: {

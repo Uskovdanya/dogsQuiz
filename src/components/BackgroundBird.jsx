@@ -3,7 +3,7 @@ function BackgroundBird() {
     <img
       src="./birdBackground.svg"
       alt=""
-      className="absolute right-0 top-[50%] z-0 w-[250px] md:top-[25%] md:w-[300px] lg:w-[368px] xl:w-[400px]"
+      className="absolute right-0 top-[60%] z-0 w-[250px] sm:top-[45%] md:top-[25%] md:w-[300px] lg:w-[368px] xl:w-[400px]"
     />
   );
 }

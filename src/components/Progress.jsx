@@ -1,6 +1,6 @@
 function Progress({ index, numQuestions, answer, points }) {
   return (
-    <div className="absolute right-[45px] top-[35px]">
+    <div className="absolute  right-24 top-[450px]  z-50 md:right-[55px] md:top-[35px]">
       <div className=" grid w-[200px] overflow-hidden rounded-2xl bg-arrowColor">
         <progress
           max={numQuestions}

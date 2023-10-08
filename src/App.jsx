@@ -184,7 +184,7 @@ function App() {
             answer={answer}
             points={points}
           />
-          <StartScreenCircle width="w-[200px] " />
+          <StartScreenCircle width="md:w-[200px] w-[150px]" />
           <LeftAngle />
           <StartScreenQuiz title={title} fourDogs={fourDogs} />
 
